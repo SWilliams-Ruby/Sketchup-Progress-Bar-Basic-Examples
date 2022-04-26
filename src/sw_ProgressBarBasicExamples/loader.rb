@@ -11,7 +11,7 @@ module SW
           
       # Load Menu Items  
       if !@loaded
-        toolbar = UI::Toolbar.new "SW ProgressBarRefresh"
+        toolbar = UI::Toolbar.new "SW ProgressBarBasicExamples"
         
         cmd = UI::Command.new("Progress1") {SW::ProgressBarBasicExamples.demo1}
         cmd.large_icon = cmd.small_icon =  File.join(SW::ProgressBarBasicExamples::PLUGIN_DIR, "icons/example1.png")
